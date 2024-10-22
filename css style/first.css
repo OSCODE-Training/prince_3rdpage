@@ -2,63 +2,69 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color:;
-
+    background-color:rgb(252, 252, 252);
+   
 }
 #navbar{
     border: 2px solid red;
     height: 600px;
     text-align: center;
-    z-index: 2;
+   
+   background-image: url(../content/background.jpg);
     
 }
-#navbar img{
-    position: absolute;
-    height: 600px;
-    align-items: left;
-    z-index: 1;
-}
-    
 
-    
 #container{
-    border: 2px solid blue;
-    height: 60px;
-    font-size: 30px;
+    
+    border: 2px solid white;
+    height: 80px;
+    font-size: 20px;
     margin: 31px 215px;
     padding: 9px 42px;
     display: flex;
     justify-content: space-around;
     text-align: center;
-   
+    color: black;
+  
+}
+#container .img1 img{
+    border: 2px solid white;
+    width: 150px;
+    height: 80px;
 }
 #container .containerA1 a{
     text-decoration: none;
-    margin: 0px 260px 0px 0px ;
+    margin: 0px 170px 0px 0px ;
     padding: 0px 25px 0px 15px ;
-    font-size: 45px;
+    font-size: 30px;
+    color: black;
 }
 #container .containerA2 a{
     text-decoration: none;
-    font-size: 45px;
+    font-size: 30px;
+    color: black;
 }
     
 
 #container .containerA3 a{
     text-decoration: none;
-    font-size: 45px;
+    font-size: 30px;
+    color: black;
 }
 #container .containerA4 a{
     text-decoration: none;
-    font-size: 45px;
+    font-size: 30px;
+    color: black;
 }
 #container .containerA5 a{
     text-decoration: none;
-    font-size: 45px;
+    font-size: 30px;
+    color: black;
 }
 #container .containerA6 a{
     text-decoration: none;
-    font-size: 45px;
+    font-size: 30px;
+    color: black;
 }
     
 
@@ -82,19 +88,22 @@
     height: 40px;
     width: 700px;
 }
+#navbar .logo input i{
+
+}
 #container1{
-    border: 2px solid yellow;
+    border: 2px solid white;
     height: 400px;
     display: flex;
     justify-content:space-between;
     align-items: center;
     margin: 20px 120px;
-    box-shadow: 0px 0px 10px 1px black;
+    /* box-shadow: 0px 0px 10px 1px black; */
 }
 #container1 .containerA{
      height: 350px;
      width: 600px;
-     border: 2px solid black;
+     border: 2px solid white;
      margin: 10px 20px;
      text-align:end;
      font-size: 20px;
@@ -119,7 +128,7 @@
 #container1 .containerB{
      height: 350px;
      width: 600px;
-     border: 2px solid black;
+     border: 2px solid white;
      margin: 10px 20px;
      text-align:right;
      font-size: 20px;
@@ -144,7 +153,7 @@
 #container1 .containerC{
      height: 350px;
      width: 600px;
-     border: 2px solid black;
+     border: 2px solid white;
      margin: 10px 20px;
      text-align:end;
      font-size: 20px;
@@ -164,8 +173,8 @@
     transform: scale(1.1);
 }
 #container2{
-    border: 2px solid green;
-    height: 600px;
+    border: 2px solid white;
+    height: 400px;
     margin: 10px 80px;
     box-shadow: 0px 0px 10px 1px black;
 }
@@ -174,59 +183,60 @@
     font-size: 40px;
 }
 #container3{
-    border: 2px solid rgb(243, 3, 151);
+    border: 2px solid white;
     height: 700px;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
     margin: 20px 80px;
-    box-shadow: 0px 0px 10px 1px black;
+    /* box-shadow: 0px 0px 10px 1px black; */
 
 }
 #container3 .containerA img{
-    height: 500px;
-    width: 400px;
-    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
     margin: 120px 10px 10px 20px;
     box-shadow: 0px 0px 12px 1px black;
+    overflow: hidden;
 }
 #container3 .containerA img:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-
+  transform: skew(5deg);
 }
 #container3 .containerB img{
-    height: 500px;
-    width: 400px;
-    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
     margin: 120px 10px 10px 20px;
     box-shadow: 0px 0px 12px 1px black;
 }
 #container3 .containerB img:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-
+    transform: skew(5deg);
 }
 #container3 .containerC img{
-    height: 500px;
-    width: 400px;
-    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
     margin: 120px 10px 10px 20px;
     box-shadow: 0px 0px 12px 1px black;
 }
 #container3 .containerC img:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-
+    transform: skew(5deg);
 }
 #container3 .containerD img{
    
-    height: 500px;
-    width: 400px;
-    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
     margin: 120px 10px 10px 20px;
     box-shadow: 0px 0px 12px 1px black;
 }
 #container3 .containerD img:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-
+    transform: skew(5deg);
 }
 #container3 h1{
     position: absolute;
@@ -239,71 +249,75 @@
     margin: -255px -10px;
 }
 #container4{
-    border: 2px solid red;
-    height: 600px;
-    margin: 10px 100px;
+    border: 2px solid white;
+    height: 900px;
+    margin: 20px 185px ;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    box-shadow: 0px 0px 10px 1px black;
+    /* box-shadow: 0px 0px 10px 1px black; */
 }
 #container4 .containerA1{
-    height: 100px;
-    width: 500px;
-    border: 2px solid black;
+    height: 80px;
+    width: 300px;
+    border: 2px solid white;
     margin: 75px 10px 10px 20px;
     text-align: start;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: -10px -10px 12px 1px black;
 }
 #container4 .containerA1:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    transform: translate(-5px,5px);
 }
 
     
 #container4 .containerA2{
-    height: 100px;
-    width: 500px;
-    border: 2px solid black;
+    height: 80px;
+    width: 300px;
+    border: 2px solid white;
     margin: 75px 10px 10px 20px;
     text-align: start;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: -10px -10px 12px 1px black;
 }
 #container4 .containerA2:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    transform: translate(-5px,5px);
 }
 
 #container4 .containerA3{
     height: 100px;
-    width: 500px;
-    border: 2px solid black;
+    width: 300px;
+    border: 2px solid white;
     margin: 75px 10px 10px 20px;
     text-align: start;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: -10px -10px 12px 1px black;
 }
 #container4 .containerA3:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    transform: translate(-5px,5px);
 }
 
 #container4 .containerA4{
     height: 100px;
-    width: 500px;
-    border: 2px solid black;
+    width: 250px;
+    border: 2px solid white;
     margin: 75px 10px 10px 20px;
     text-align: start;
-    font-size: 30px;
+    font-size: 20px;
     box-shadow: -10px -10px 12px 1px black;
 }
 #container4 .containerA4:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    transform: translate(-5px,5px);
 }
 
 #container4 .containerA5{
     height: 100px;
     width: 500px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -311,13 +325,14 @@
 }
 #container4 .containerA5:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    transform: translate(-5px,5px);
 }
  
 
 #container4 .containerA6{
     height: 100px;
     width: 500px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -325,12 +340,13 @@
 }
 #container4 .containerA6:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    transform: translate(-5px,5px);
 }
 
 #container4 .containerA7{
     height: 100px;
     width: 500px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -338,12 +354,13 @@
 }
 #container4 .containerA7:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    transform: translate(-5px,5px);
 }
 
 #container4 .containerA8{
     height: 100px;
     width: 500px;
-    border: 2px solid black;
+    border: 2px solid white ;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -351,12 +368,13 @@
 }
 #container4 .containerA8:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    transform: translate(-5px,5px);
 }
 
 #container4 .containerA9{
     height: 100px;
     width: 500px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -364,6 +382,12 @@
 }
 #container4 .containerA9:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+
+}
+#container4 .containerA9 #ready{
+    width: 300px;
+    height: 60px;
+    
 }
 
 #container4 h1{
@@ -371,35 +395,36 @@
     font-size: 50px;
 }
 #container5{
-    border: 2px solid blue;
-    height: 600px;
+    border: 2px solid white;
+    height: 700px;
     display: flex;
     margin: 10px 80px;
-    justify-content:space-around;
-    box-shadow: 0px 0px 10px 1px black;
+    justify-content:space-evenly;
+    /* box-shadow: 0px 0px 10px 1px black; */
 }
 
 #container5 .containerA1{
-    height: 500px;
-    width: 600px;
-    border: 2px solid black;
-    margin: 75px -100px 10px 20px;
+    height: 600px;
+    width: 700px;
+    border: 2px solid white;
+    margin: 45px -295px 0px 35px;
     box-shadow: 0px 0px 12px 1px black;
 }
 #container5 .containerA1 img{
-    border: 2px solid red;
-    height: 500px;
+    border: 2px solid white ;
+    height: 550px;
     width: 600px;
+    cursor: pointer;
 }
 #container5 .containerA2{
-    height: 500px;
+    height: 550px;
     width: 600px;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 75px 50px 10px 20px;
     box-shadow: 0px 0px 12px 1px black;
 }
 #container5 .containerA2 h1{
-     font-size: 40px;
+     font-size: 45px;
      margin: 10px 10px;
      padding: 10px 10px;
 }
@@ -411,39 +436,57 @@
 
 }
 #container5 .containerA2 input{
-    width: 300px;
-    height: 30px;
+    border: 2px solid white;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 40px;
     margin: 10px 10px;
     padding: 10px 10px;
+    background-color: rgb(230, 228, 228);
 
+}
+#container5 .containerA2 input:hover{
+    border:2px solid blue ease-out;
+    background-color: rgba(255, 0, 0, 0.859);
+    color: white;
 }
 #container5 .containerA2 button{
-    height: 40px;
-    width: 150px;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
     margin: 10px 10px;
     padding: 10px 10px;
-
+   background-color:  rgba(255, 0, 0, 0.859);
+   cursor: pointer;
+}
+#container5 .containerA2 button:hover{
+    background-color: white;
 
 }
+
+
 #container5 .containerA2 .childcontainer{
-    border: 2px solid red;
+    border: 2px solid white;
     display: flex;
     justify-content: space-around;
-    height: 60px;
-    width: 400px;
+    height: 70px;
+    width: 500px;
 }
 #container5 .containerA2 .childcontainer .childcontainerA1 img{
-    border: 2px solid black;
-    width: 150px;
-    height: 50px;
+    border: 2px solid white;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
 }
 #container5 .containerA2 .childcontainer .childcontainerA2 img{
-    border: 2px solid black;
-    width: 150px;
-    height: 50px;
+    border: 2px solid white ;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
 }
 #container6{
-    border: 2px solid green;
+    border: 2px solid white;
     height: 600px;
     margin: 10px 80px;
     display: flex;
@@ -452,47 +495,141 @@
     box-shadow: 0px 0px 10px 1px black;
 }
 #container6 .containerA1{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
-    height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    height: 70px;
+    width: 800px;
+   font-size: 30px;
 
 }
+
 #container6 .containerA2{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#container6 .containerA2 .childcontainerA1{
+    padding: 10px;
+    font-size: 30px;
+
+}
+#container6 .containerA2 .childcontainerA2 button{
+  margin: 10px;
+height: 40px;
+width: 50px;
+font-size: 30px;
+background-color: white;
+border: 2px solid white;
+box-shadow: 0px 0px 10px 1px black;
+    
+}
+#container6 .containerA2 .childcontainerA2 button:hover{
+    transform: rotate(90deg);
+    
 
 }
 #container6 .containerA3{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#container6 .containerA3 .childcontainerA1{
+    padding: 10px;
+    font-size: 30px;
+
+}
+#container6 .containerA3 .childcontainerA2 button{
+  margin: 10px;
+height: 40px;
+width: 50px;
+font-size: 30px;
+background-color: white;
+border: 2px solid white;
+box-shadow: 0px 0px 10px 1px black;
+    
+}
+#container6 .containerA3 .childcontainerA2 button:hover{
+    transform: rotate(90deg);
+    
 
 }
 #container6 .containerA4{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#container6 .containerA4 .childcontainerA1{
+    padding: 10px;
+    font-size: 30px;
+
+}
+#container6 .containerA4 .childcontainerA2 button{
+  margin: 10px;
+height: 40px;
+width: 50px;
+font-size: 30px;
+background-color: white;
+border: 2px solid white;
+box-shadow: 0px 0px 10px 1px black;
+    
+}
+#container6 .containerA4 .childcontainerA2 button:hover{
+    transform: rotate(90deg);
+    
 
 }
 #container6 .containerA5{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#container6 .containerA5 .childcontainerA1{
+    padding: 10px;
+    font-size: 30px;
+
+}
+#container6 .containerA5 .childcontainerA2 button{
+  margin: 10px;
+height: 40px;
+width: 50px;
+font-size: 30px;
+background-color: white;
+border: 2px solid white;
+box-shadow: 0px 0px 10px 1px black;
+    
+}
+#container6 .containerA5 .childcontainerA2 button:hover{
+    transform: rotate(90deg);
+    
 
 }
 #container7{
-    border: 2px solid red;
+    border: 2px solid white;
+    background-color: rgb(226, 219, 219);
     height: 800px;
     /* display: flex;
     justify-content: space-around; */
@@ -500,153 +637,177 @@
     
 }
 #container7 .container01{
-    border: 2px solid blue;
+    border: 2px solid white;
     margin: 35px;
     height: 600px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+}
+#container7 .container01 h1{
+    position: absolute;
+    font-size: 30px;
 }
 #container7 .containerA1{
-    border: 2px solid black;
+    border: 2px solid white;
     height: 400px;
-    width: 400px;
-    margin: 10px 10px 10px 10px;
+    width: 300px;
+    margin: 50px 10px 10px 100px;
     padding: 10px -1px 0px 0px ;
-    font-size: 25px;
-    margin: 80px;
+    font-size: 15px;
+    
 }
 #container7 .containerA1 ul{
     list-style: none;
     margin: 30px;
-    font-size: 20px;
-    
+    font-size: 12px;
 }
+#container7 .containerA1 :hover{
+    text-decoration: underline;
+    color: solid black;
+}   
+    
 #container7 .containerA1 ul li{
     margin: 10px;
 }
 #container7 .containerA2{
-    border: 2px solid black;
+    border: 2px solid white;
     height: 400px;
-    width: 300px;
-    margin: 10px 10px 10px 10px;
+    width: 250px;
+    margin: 50px 10px 10px 100px;
     padding: 10px 10px 10px 10px;
-    font-size: 25px;
-    margin: 80px;
+    font-size: 15px;
+    
 }
+#container7 .containerA2 :hover{
+    text-decoration: underline;
+    color: solid black;
+}   
 #container7 .containerA2 ul{
     list-style: none;
     margin: 30px ;
-    font-size: 20px;
+    font-size: 12px;
     
 }
 #container7 .containerA2 ul li{
     margin: 10px;
 }
 #container7 .containerA3{
-    border: 2px solid black;
+    border: 2px solid white ;
     height: 400px;
     width: 250px;
-    margin: 10px 10px;
-    font-size: 25px;
-    margin: 80px;
+    margin: 50px 10px 10px 100px;
+    font-size: 15px;
+    
 }
+#container7 .containerA3 :hover{
+    text-decoration: underline;
+    color: solid black;
+}   
 #container7 .containerA3 ul{
     list-style: none;
     margin: 30px;
-    font-size: 20px;
+    font-size: 10px;
     
 }
 #container7 .containerA3 ul li{
     margin: 10px;
 }
 #container7 .containerA4{
-    border: 2px solid black;
+    border: 2px solid white;
     height: 400px;
-    width: 250px;
-    margin: 10px 10px;
-    font-size: 25px;
-    margin: 80px;
+    width: 150px;
+    margin: 50px 10px 10px 100px;
+    font-size: 15px;
+    
 }
+#container7 .containerA4 :hover{
+    text-decoration: underline;
+    color: solid black;
+}   
 #container7 .containerA4 ul{
     list-style: none;
     margin: 30px;
-    font-size: 20px;
+    font-size: 10px;
     
 }
 #container7 .containerA4 ul li{
     margin: 10px;
 }
 #container7 .containerA5{
-    border: 2px solid black;
+    border: 2px solid white;
     height: 400px;
     width: 350px;
-    margin: 10px 10px;
-    font-size: 25px;
-    margin: 80px;
+    margin: 50px 10px 10px 100px;
+    font-size: 15px;
+    
    
 }
 #container7 .containerA5 #link{
     display: flex;
     margin: 20px 10px;
     justify-content: space-around;
-    width: 300px;
+    width: 350px;
 }
 #container7 .containerA5 #link .link1 img{
-    border: 2px solid purple;
+    border: 2px solid  white;
     border-radius: 50%;
-    height: 30px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 #container7 .containerA5 #link .link2 img{
-    border: 2px solid purple;
+    border: 2px solid white;
     border-radius: 50%;
-    height: 30px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 #container7 .containerA5 #link .link3 img{
-    border: 2px solid purple;
+    border: 2px solid white;
     border-radius: 50%;
-    height: 30px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 #container7 .containerA5 #link .link4 img{
-    border: 2px solid purple;
+    border: 2px solid white ;
     border-radius: 50%;
-    height: 30px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 #container7 .containerA5 #link .link5 img{
-    border: 2px solid purple;
+    border: 2px solid white ;
     border-radius: 50%;
-    height: 30px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 #container7 .containerA5 ul{
-    border: 2px solid green;
+    border: 2px solid white;
     list-style: none;
     margin: 50px;
     width: 260px;
 }
-#container7 .containerA5 ul .item1{
-    border: 2px solid rgb(45, 18, 113);
+#container7 .containerA5 ul .item1 img{
+    border: 2px solid white;
     height: 60px;
     width: 200px;
     margin: 10px;
     padding: 10px;
+    cursor: pointer;
     
 }
-#container7 .containerA5 ul .item2{
-    border: 2px solid rgb(45, 18, 113);
+#container7 .containerA5 ul .item2 img{
+    border: 2px solid white;
     height: 60px;
     width: 200px;
     margin: 10px;
     padding: 10px;
+    cursor: pointer;
     
     
 }
 #container7 p{
     margin: 20px;
     font-size: 20px;
+    background-color: rgb(226, 219, 219);
 }
 
 
