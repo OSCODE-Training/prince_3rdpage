@@ -2,30 +2,32 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color:;
-
 }
 #navbar{
-    border: 2px solid red;
+
     height: 600px;
+    width: 100% !important ;
     text-align: center;
-    z-index: 2;
-    
+    /* z-index: 2; */
+    background-image: url(../assets/pexels-chanwalrus-958545.jpg);
+    background-size: cover;
 }
-#navbar img{
+/* #navbar img{
     position: absolute;
     height: 600px;
     align-items: left;
     z-index: 1;
 }
-    
-
+     */
+.ctn1{
+    display: flex;
+    overflow:scroll;
+}
     
 #container{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 60px;
     font-size: 30px;
-    margin: 31px 215px;
     padding: 9px 42px;
     display: flex;
     justify-content: space-around;
@@ -33,30 +35,36 @@
    
 }
 #container .containerA1 a{
+    color: white;
     text-decoration: none;
     margin: 0px 260px 0px 0px ;
     padding: 0px 25px 0px 15px ;
     font-size: 45px;
 }
 #container .containerA2 a{
+    color: white ;
     text-decoration: none;
     font-size: 45px;
 }
     
 
 #container .containerA3 a{
+    color: white ;
     text-decoration: none;
     font-size: 45px;
 }
 #container .containerA4 a{
+    color: white ;
     text-decoration: none;
     font-size: 45px;
 }
 #container .containerA5 a{
+    color: white ;
     text-decoration: none;
     font-size: 45px;
 }
 #container .containerA6 a{
+    color: white ;
     text-decoration: none;
     font-size: 45px;
 }
@@ -67,18 +75,23 @@
     margin: 30px 10px;
 }
 #navbar .logo h1{
+    color: white ;
     font-size: 80px;
     margin: 5px;
     padding: 10px;
 }
 #navbar .logo h2{
+    color: white ;
     font-size: 40px;
     margin: 10px 10px;
     padding: 10px 10px;
 }
 #navbar .logo input{
+    outline: none;
+    border: none;
+    border-radius: 5px;
     margin: 10px 10px;
-    padding: 10px 10px;
+    padding-left: 20px;
     height: 40px;
     width: 700px;
 }
@@ -170,7 +183,9 @@
     box-shadow: 0px 0px 10px 1px black;
 }
 #container2 h1{
-    position: absolute;
+    color: white;
+    
+    /* position: absolute; */
     font-size: 40px;
 }
 #container3{
@@ -492,8 +507,9 @@
 
 }
 #container7{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 800px;
+    width: 95%;
     /* display: flex;
     justify-content: space-around; */
     box-shadow: 0px 0px 10px 1px black;
@@ -501,19 +517,19 @@
 }
 #container7 .container01{
     border: 2px solid blue;
-    margin: 35px;
+    /* margin: 35px; */
     height: 600px;
     display: flex;
-    justify-content: space-between;
+   
 }
 #container7 .containerA1{
     border: 2px solid black;
     height: 400px;
     width: 400px;
-    margin: 10px 10px 10px 10px;
+    /* margin: 10px 10px 10px 10px; */
     padding: 10px -1px 0px 0px ;
     font-size: 25px;
-    margin: 80px;
+    /* margin: 80px; */
 }
 #container7 .containerA1 ul{
     list-style: none;
@@ -528,10 +544,10 @@
     border: 2px solid black;
     height: 400px;
     width: 300px;
-    margin: 10px 10px 10px 10px;
+    /* margin: 10px 10px 10px 10px; */
     padding: 10px 10px 10px 10px;
     font-size: 25px;
-    margin: 80px;
+    /* margin: 80px; */
 }
 #container7 .containerA2 ul{
     list-style: none;
@@ -546,9 +562,9 @@
     border: 2px solid black;
     height: 400px;
     width: 250px;
-    margin: 10px 10px;
+    /* margin: 10px 10px; */
     font-size: 25px;
-    margin: 80px;
+    /* margin: 80px; */
 }
 #container7 .containerA3 ul{
     list-style: none;
@@ -563,9 +579,9 @@
     border: 2px solid black;
     height: 400px;
     width: 250px;
-    margin: 10px 10px;
+    /* margin: 10px 10px; */
     font-size: 25px;
-    margin: 80px;
+    /* margin: 80px; */
 }
 #container7 .containerA4 ul{
     list-style: none;
@@ -580,9 +596,9 @@
     border: 2px solid black;
     height: 400px;
     width: 350px;
-    margin: 10px 10px;
+    /* margin: 10px 10px; */
     font-size: 25px;
-    margin: 80px;
+    /* margin: 80px; */
    
 }
 #container7 .containerA5 #link{
