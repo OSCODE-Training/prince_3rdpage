@@ -2,10 +2,11 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #navbar{
-
-    height: 600px;
+   
+    height: 450px;
     width: 100% !important ;
     text-align: center;
     /* z-index: 2; */
@@ -20,17 +21,21 @@
 }
      */
 .ctn1{
+    /* padding: 5%; */
     display: flex;
-    overflow:scroll;
+    /* overflow:-moz-hidden-unscrollable; */
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 40px 0px 40px 0px ;
 }
     
 #container{
     /* border: 2px solid blue; */
     height: 60px;
-    font-size: 30px;
+    
     padding: 9px 42px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
    
 }
@@ -39,34 +44,40 @@
     text-decoration: none;
     margin: 0px 260px 0px 0px ;
     padding: 0px 25px 0px 15px ;
-    font-size: 45px;
+    font-size: large;
+    font-weight: 100px;
 }
 #container .containerA2 a{
     color: white ;
     text-decoration: none;
-    font-size: 45px;
+    font-size: large;
+    font-weight: 100px;
 }
     
 
 #container .containerA3 a{
     color: white ;
     text-decoration: none;
-    font-size: 45px;
+    font-size: large;
+    font-weight: 100px;
 }
 #container .containerA4 a{
     color: white ;
     text-decoration: none;
-    font-size: 45px;
+    font-size: large;
+    font-weight: 100px;
 }
 #container .containerA5 a{
     color: white ;
     text-decoration: none;
-    font-size: 45px;
+    font-size: large;
+    font-weight: 100px;
 }
 #container .containerA6 a{
     color: white ;
     text-decoration: none;
-    font-size: 45px;
+    font-size: large;
+    font-weight: 100px;
 }
     
 
@@ -76,13 +87,17 @@
 }
 #navbar .logo h1{
     color: white ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80px;
+    font-style: italic;
+    
     margin: 5px;
     padding: 10px;
 }
 #navbar .logo h2{
     color: white ;
-    font-size: 40px;
+    font-size: x-large;
+    text-decoration: underline; 
     margin: 10px 10px;
     padding: 10px 10px;
 }
@@ -96,31 +111,36 @@
     width: 700px;
 }
 #container1{
-    border: 2px solid yellow;
     height: 400px;
     display: flex;
     justify-content:space-between;
     align-items: center;
     margin: 20px 120px;
-    box-shadow: 0px 0px 10px 1px black;
+    /* box-shadow: 0px 0px 10px 1px black; */
 }
 #container1 .containerA{
+    display: flex;
+    align-items: center;
      height: 350px;
      width: 600px;
-     border: 2px solid black;
+     /* border: 2px solid black; */
      margin: 10px 20px;
      text-align:end;
      font-size: 20px;
-     box-shadow: 0px 0px 10px 1px black;
+     /* box-shadow: 0px 0px 10px 1px black; */
      /* transform: scale(0); */
      overflow: hidden;
+    
 }
 #container1 .containerA img{
     width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 #container1 .containerA:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    /* box-shadow: 0px 0px 8px 3px rgb(231, 31, 31); */
     transform: scale(1) ;
 }
 #container1 .containerA:hover img{
@@ -130,23 +150,28 @@
 
 
 #container1 .containerB{
+    display: flex;
+    align-items: center;
      height: 350px;
      width: 600px;
-     border: 2px solid black;
+     /* border: 2px solid black; */
      margin: 10px 20px;
      text-align:right;
      font-size: 20px;
-     box-shadow: 0px 0px 12px 1px black;
+     /* box-shadow: 0px 0px 12px 1px black; */
      /* transform: scale(0); */
      /* background-image: ; */
      overflow: hidden;
 }
 #container1 .containerB img{
     width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 #container1 .containerB:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
+    /* box-shadow: 0px 0px 8px 3px rgb(231, 31, 31); */
     transform: scale(1) ;
 }
 #container1 .containerB:hover img{
@@ -155,23 +180,29 @@
 
 
 #container1 .containerC{
+    display: flex;
+    align-items: center;
      height: 350px;
      width: 600px;
-     border: 2px solid black;
+     /* border: 2px solid black; */
      margin: 10px 20px;
      text-align:end;
      font-size: 20px;
-     box-shadow: 0px 0px 12px 1px black;
-     /* transform: scale(0); */
+     /* box-shadow: 0px 0px 12px 1px black; */
+     
      overflow: hidden;
 }
 #container1 .containerC img{
+    
+    display: flex;
+    align-items: center;
     width: 100%;
+    cursor: pointer;
 }
 
 #container1 .containerC:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: scale(1) ;
+    /* box-shadow: 0px 0px 8px 3px rgb(231, 31, 31); */
+    /* transform: scale(1) ; */
 }
 #container1 .containerC:hover img{
     transform: scale(1.1);
@@ -189,70 +220,79 @@
     font-size: 40px;
 }
 #container3{
-    border: 2px solid rgb(243, 3, 151);
-    height: 700px;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    margin: 20px 80px;
-    box-shadow: 0px 0px 10px 1px black;
+    /* border: 2px solid rgb(4, 4, 4); */
+    width: 100%;
+    display: block;
+    align-content: center;
+    /* justify-content: space-between; */
+    /* box-shadow: 0px 0px 10px 1px black; */
 
 }
 #container3 .containerA img{
-    height: 500px;
-    width: 400px;
-    border: 2px solid black;
-    margin: 120px 10px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    /* border: 2px solid white; */
+    /* margin: 120px 10px 10px 20px; */
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.185);
+    overflow: hidden;
 }
 #container3 .containerA img:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-
+    box-shadow: 0px 0px 8px 3px rgba(208, 54, 54, 0.482);
+  /* transform: skew(5deg); */
 }
 #container3 .containerB img{
-    height: 500px;
-    width: 400px;
-    border: 2px solid black;
-    margin: 120px 10px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    /* border: 2px solid white; */
+    /* margin: 120px 10px 10px 20px; */
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.185);
 }
 #container3 .containerB img:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-
+    box-shadow: 0px 0px 8px 3px rgba(208, 54, 54, 0.482);
+    /* transform: skew(5deg); */
 }
 #container3 .containerC img{
-    height: 500px;
-    width: 400px;
-    border: 2px solid black;
-    margin: 120px 10px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    /* margin: 120px 10px 10px 20px; */
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.185);
+    border-radius: 5px;
 }
 #container3 .containerC img:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-
+    box-shadow: 0px 0px 8px 3px rgba(208, 54, 54, 0.482);
+    /* transform: skew(5deg); */
 }
 #container3 .containerD img{
    
-    height: 500px;
-    width: 400px;
-    border: 2px solid black;
-    margin: 120px 10px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    /* margin: 120px 10px 10px 20px; */
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.185);
+    border-radius: 5px;
 }
 #container3 .containerD img:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-
+    box-shadow: 0px 0px 8px 3px rgba(208, 54, 54, 0.482);
+    /* transform: skew(5deg); */
+}
+.ctn01{
+    /* display: inline-block; */
 }
 #container3 h1{
-    position: absolute;
-   margin: -336px 21px;
+    display: flex;
+    justify-content: center;
+    /* position: absolute;
+   margin: -336px 21px; */
    font-size: 50px;
 }
 #container3 p{
-    font-size: 30px;
-    position: absolute;
-    margin: -255px -10px;
-}
+   display: flex;
+   justify-content: center;
+}   
+/* 
 #container4{
     border: 2px solid red;
     height: 600px;
@@ -384,38 +424,37 @@
 #container4 h1{
     position: absolute;
     font-size: 50px;
-}
+} */
 #container5{
-    border: 2px solid blue;
-    height: 600px;
+    /* border: 2px solid white; */
+    width: 100%;
     display: flex;
-    margin: 10px 80px;
-    justify-content:space-around;
-    box-shadow: 0px 0px 10px 1px black;
+    /* margin: 10px 80px; */
+    padding-top: 100px;  ;
+    justify-content: center;
+    /* box-shadow: 0px 0px 10px 1px black; */
+    margin-bottom: 100px;
 }
 
-#container5 .containerA1{
-    height: 500px;
-    width: 600px;
-    border: 2px solid black;
-    margin: 75px -100px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
-}
+
 #container5 .containerA1 img{
-    border: 2px solid red;
-    height: 500px;
-    width: 600px;
+    /* border: 2px solid white ; */
+    height: 550px;
+    margin-right:100px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.126);
+    
 }
 #container5 .containerA2{
-    height: 500px;
+    height: 550px;
     width: 600px;
-    border: 2px solid black;
-    margin: 75px 50px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
+    /* border: 2px solid white; */
+    /* margin: 75px 50px 10px 20px; */
+    /* box-shadow: 0px 0px 12px 1px black; */
 }
 #container5 .containerA2 h1{
-     font-size: 40px;
-     margin: 10px 10px;
+     font-size: 45px;
+     /* margin: 10px 10px; */
      padding: 10px 10px;
 }
 #container5 .containerA2 p{
@@ -426,39 +465,59 @@
 
 }
 #container5 .containerA2 input{
-    width: 300px;
-    height: 30px;
+    /* border: 2px solid white; */
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 40px;
     margin: 10px 10px;
     padding: 10px 10px;
-
+    border-radius: 6px;
+    outline: none;
+}
+#container5 .containerA2 input:hover{
+    
 }
 #container5 .containerA2 button{
-    height: 40px;
-    width: 150px;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
     margin: 10px 10px;
+    color: white;
     padding: 10px 10px;
-
+    background-color: rgba(255, 0, 0, 0.859);
+   cursor: pointer;
+   border-radius: 6px;
+   border: none;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.126);
+}
+#container5 .containerA2 button:hover{
+    background-color: rgba(215, 5, 5, 0.859);
 
 }
+
+
 #container5 .containerA2 .childcontainer{
-    border: 2px solid red;
+    /* border: 2px solid white; */
     display: flex;
     justify-content: space-around;
-    height: 60px;
-    width: 400px;
+    height: 70px;
+    width: 500px;
 }
 #container5 .containerA2 .childcontainer .childcontainerA1 img{
-    border: 2px solid black;
-    width: 150px;
-    height: 50px;
+    /* border: 2px solid white; */
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
 }
 #container5 .containerA2 .childcontainer .childcontainerA2 img{
-    border: 2px solid black;
-    width: 150px;
-    height: 50px;
+    /* border: 2px solid white ; */
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
 }
 #container6{
-    border: 2px solid green;
+    /* border: 2px solid white; */
     height: 600px;
     margin: 10px 80px;
     display: flex;
@@ -467,203 +526,344 @@
     box-shadow: 0px 0px 10px 1px black;
 }
 #container6 .containerA1{
-    border: 2px solid black;
+    /* border: 2px solid white; */
     border-radius: 10px;
-    height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    height: 70px;
+    width: 800px;
+   font-size: 30px;
 
 }
+
 #container6 .containerA2{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#container6 .containerA2 .childcontainerA1{
+    padding: 10px;
+    font-size: 30px;
+
+}
+#container6 .containerA2 .childcontainerA2 button{
+  margin: 10px;
+height: 40px;
+width: 50px;
+font-size: 30px;
+background-color: white;
+border: 2px solid white;
+box-shadow: 0px 0px 10px 1px black;
+    
+}
+#container6 .containerA2 .childcontainerA2 button:hover{
+    transform: rotate(90deg);
+    
 
 }
 #container6 .containerA3{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#container6 .containerA3 .childcontainerA1{
+    padding: 10px;
+    font-size: 30px;
+
+}
+#container6 .containerA3 .childcontainerA2 button{
+  margin: 10px;
+height: 40px;
+width: 50px;
+font-size: 30px;
+background-color: white;
+border: 2px solid white;
+box-shadow: 0px 0px 10px 1px black;
+    
+}
+#container6 .containerA3 .childcontainerA2 button:hover{
+    transform: rotate(90deg);
+    
 
 }
 #container6 .containerA4{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#container6 .containerA4 .childcontainerA1{
+    padding: 10px;
+    font-size: 30px;
+
+}
+#container6 .containerA4 .childcontainerA2 button{
+  margin: 10px;
+height: 40px;
+width: 50px;
+font-size: 30px;
+background-color: white;
+border: 2px solid white;
+box-shadow: 0px 0px 10px 1px black;
+    
+}
+#container6 .containerA4 .childcontainerA2 button:hover{
+    transform: rotate(90deg);
+    
 
 }
 #container6 .containerA5{
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 10px;
     height: 60px;
-    width: 1600px;
-    margin: 10px 10px 10px 10px;
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
 
 }
+#container6 .containerA5 .childcontainerA1{
+    padding: 10px;
+    font-size: 30px;
+
+}
+#container6 .containerA5 .childcontainerA2 button{
+  margin: 10px;
+height: 40px;
+width: 50px;
+font-size: 30px;
+background-color: white;
+border: 2px solid white;
+box-shadow: 0px 0px 10px 1px black;
+    
+}
+#container6 .containerA5 .childcontainerA2 button:hover{
+    transform: rotate(90deg);
+    
+
+}
+.foot{
+    padding: 3% 15% 1% 15% ;
+}
+
+
 #container7{
-    /* border: 2px solid red; */
-    height: 800px;
-    width: 95%;
-    /* display: flex;
-    justify-content: space-around; */
-    box-shadow: 0px 0px 10px 1px black;
+    /* border: 2px solid white; */
+    background-color: rgba(237, 237, 237, 0.405);
+    /* height: 800px; */
+    display: flex;
+    justify-content: space-evenly; 
+    /* box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.088); */
     
 }
 #container7 .container01{
-    border: 2px solid blue;
+    /* border: 2px solid white; */
     /* margin: 35px; */
-    height: 600px;
+    /* height: 600px; */
     display: flex;
+    /* justify-content: space-between; */
    
 }
+#container7 .container01 h1{
+    /* position: absolute; */
+    
+}
 #container7 .containerA1{
-    border: 2px solid black;
-    height: 400px;
-    width: 400px;
-    /* margin: 10px 10px 10px 10px; */
-    padding: 10px -1px 0px 0px ;
-    font-size: 25px;
-    /* margin: 80px; */
+    /* border: 2px solid white; */
+    /* height: 400px; */
+    /* width: 300px; */
+    /* margin: 50px 10px 10px 100px; */
+    /* padding: 10px -1px 0px 0px ; */
+    /* padding: 60px;px; */
+    padding-right: 0%;
+   
+    
 }
 #container7 .containerA1 ul{
     list-style: none;
-    margin: 30px;
-    font-size: 20px;
+    /* margin: 30px; */
     
+    color: rgba(52, 52, 52, 0.485);
+}
+#container7 .containerA1 ul li:hover{
+    /* text-decoration: underline; */
+    color:  black;
+}   
+#container7 ul{
+   width: 200px;
+}
+#container7 ul li{
+    cursor: pointer;
 }
 #container7 .containerA1 ul li{
-    margin: 10px;
+    /* margin: 10px; */
 }
 #container7 .containerA2{
-    border: 2px solid black;
-    height: 400px;
-    width: 300px;
-    /* margin: 10px 10px 10px 10px; */
-    padding: 10px 10px 10px 10px;
-    font-size: 25px;
-    /* margin: 80px; */
+    /* border: 2px solid white; */
+    /* height: 400px; */
+    /* width: 250px; */
+    /* margin: 50px 10px 10px 100px; */
+    /* padding: 10px 10px 10px 10px; */
+    padding-right: 0%;
+    
 }
+#container7 .containerA2 ul li:hover{
+    /* text-decoration: underline; */
+    color:  black;
+}   
 #container7 .containerA2 ul{
     list-style: none;
-    margin: 30px ;
-    font-size: 20px;
+    /* margin: 30px ; */
+    
+    color: rgba(52, 52, 52, 0.485);
     
 }
 #container7 .containerA2 ul li{
-    margin: 10px;
+    /* margin: 10px; */
 }
 #container7 .containerA3{
-    border: 2px solid black;
-    height: 400px;
-    width: 250px;
-    /* margin: 10px 10px; */
-    font-size: 25px;
-    /* margin: 80px; */
+    /* border: 2px solid white ; */
+    /* height: 400px; */
+    /* width: 250px; */
+    /* margin: 50px 10px 10px 100px; */
+    padding-right: 0%;
+    
 }
+#container7 .containerA3 ul li:hover{
+    /* text-decoration: underline; */
+    color:  black;
+}   
 #container7 .containerA3 ul{
     list-style: none;
-    margin: 30px;
-    font-size: 20px;
+    /* margin: 30px; */
+    
+    color: rgba(52, 52, 52, 0.485);
     
 }
 #container7 .containerA3 ul li{
-    margin: 10px;
+    /* margin: 10px; */
 }
 #container7 .containerA4{
-    border: 2px solid black;
-    height: 400px;
-    width: 250px;
-    /* margin: 10px 10px; */
-    font-size: 25px;
-    /* margin: 80px; */
-}
-#container7 .containerA4 ul{
-    list-style: none;
-    margin: 30px;
-    font-size: 20px;
+    /* border: 2px solid white; */
+    /* height: 400px; */
+    /* width: 150px; */
+    /* margin: 50px 10px 10px 100px; */
+    ;
+    padding-right: 0%;
     
 }
-#container7 .containerA4 ul li{
-    margin: 10px;
+#container7 .containerA4 ul li:hover{
+    /* text-decoration: underline; */
+    color:  black;
+}   
+#container7 .containerA4 ul{
+    
+    list-style: none;
+    color: rgba(52, 52, 52, 0.485);
+    
 }
+/* #container7 .containerA4 ul li{
+
+} */
 #container7 .containerA5{
-    border: 2px solid black;
-    height: 400px;
-    width: 350px;
-    /* margin: 10px 10px; */
-    font-size: 25px;
-    /* margin: 80px; */
+    /* border: 2px solid white; */
+    /* height: 400px; */
+    /* width: 350px; */
+    /* margin: 50px 10px 10px 100px; */   
    
 }
 #container7 .containerA5 #link{
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
-    margin: 20px 10px;
-    justify-content: space-around;
-    width: 300px;
-}
-#container7 .containerA5 #link .link1 img{
-    border: 2px solid purple;
-    border-radius: 50%;
-    height: 30px;
-    width: 40px;
-}
-#container7 .containerA5 #link .link2 img{
-    border: 2px solid purple;
-    border-radius: 50%;
-    height: 30px;
-    width: 40px;
-}
-#container7 .containerA5 #link .link3 img{
-    border: 2px solid purple;
-    border-radius: 50%;
-    height: 30px;
-    width: 40px;
-}
-#container7 .containerA5 #link .link4 img{
-    border: 2px solid purple;
-    border-radius: 50%;
-    height: 30px;
-    width: 40px;
-}
-#container7 .containerA5 #link .link5 img{
-    border: 2px solid purple;
-    border-radius: 50%;
-    height: 30px;
-    width: 40px;
-}
-#container7 .containerA5 ul{
-    border: 2px solid green;
-    list-style: none;
-    margin: 50px;
-    width: 260px;
-}
-#container7 .containerA5 ul .item1{
-    border: 2px solid rgb(45, 18, 113);
-    height: 60px;
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
+    /* margin: 20px 10px; */
+    align-items: center;
+    justify-content: space-between;
+    
     
 }
-#container7 .containerA5 ul .item2{
-    border: 2px solid rgb(45, 18, 113);
+#container7 .containerA5 #link .link1 img {
+    /* border: 2px solid  white; */
+    
+    width: 45px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+#container7 .containerA5 #link .link2 img{
+    /* border: 2px solid white; */
+    width: 40px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+#container7 .containerA5 #link .link3 img{
+    /* border: 2px solid white; */
+    border-radius: 10%;
+    width: 45px;
+    cursor: pointer;
+}
+#container7 .containerA5 #link .link4 img{
+    /* border: 2px solid white ; */
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#container7 .containerA5 #link .link5 img{
+    /* border: 2px solid white ; */
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#container7 .containerA5 ul{
+    /* border: 2px solid white; */
+    list-style: none;
+    /* margin: 50px; */
+   
+
+}
+#container7 .containerA5 ul .item1 img{
+    /* border: 2px solid white; */
     height: 60px;
     width: 200px;
-    margin: 10px;
+    border-radius:6px ;
+    /* margin: 10px; */
     padding: 10px;
+    cursor: pointer;
+    
+}
+#container7 .containerA5 ul .item2 img{
+    /* border: 2px solid white; */
+    border-radius:6px ;
+    height: 60px;
+    width: 200px;
+    /* margin: 10px; */
+    padding: 10px;
+    cursor: pointer;
     
     
 }
 #container7 p{
-    margin: 20px;
-    font-size: 20px;
+    padding-top: 10px;
+    color: rgba(52, 52, 52, 0.485);
+    /* background-color: rgb(226, 219, 219); */
 }
-
-
-
+#ul-00{
+    display: inline-block;
+}
