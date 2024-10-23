@@ -2,31 +2,13 @@
 *{
     margin: 0px;
     padding: 0px;
-<<<<<<< HEAD
-    background-color:rgb(252, 252, 252);
-   
-=======
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #navbar{
    
     height: 450px;
     width: 100% !important ;
     text-align: center;
-<<<<<<< HEAD
-   
-   background-image: url(../content/background.jpg);
-    
-}
-
-#container{
-    
-    border: 2px solid white;
-    height: 80px;
-    font-size: 20px;
-    margin: 31px 215px;
-=======
     /* z-index: 2; */
     background-image: url(../assets/pexels-chanwalrus-958545.jpg);
     background-size: cover;
@@ -51,88 +33,51 @@
     /* border: 2px solid blue; */
     height: 60px;
     
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     padding: 9px 42px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    color: black;
-  
-}
-#container .img1 img{
-    border: 2px solid white;
-    width: 150px;
-    height: 80px;
+   
 }
 #container .containerA1 a{
     color: white;
     text-decoration: none;
-    margin: 0px 170px 0px 0px ;
+    margin: 0px 260px 0px 0px ;
     padding: 0px 25px 0px 15px ;
-<<<<<<< HEAD
-    font-size: 30px;
-    color: black;
-=======
     font-size: large;
     font-weight: 100px;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #container .containerA2 a{
     color: white ;
     text-decoration: none;
-<<<<<<< HEAD
-    font-size: 30px;
-    color: black;
-=======
     font-size: large;
     font-weight: 100px;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
     
 
 #container .containerA3 a{
     color: white ;
     text-decoration: none;
-<<<<<<< HEAD
-    font-size: 30px;
-    color: black;
-=======
     font-size: large;
     font-weight: 100px;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #container .containerA4 a{
     color: white ;
     text-decoration: none;
-<<<<<<< HEAD
-    font-size: 30px;
-    color: black;
-=======
     font-size: large;
     font-weight: 100px;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #container .containerA5 a{
     color: white ;
     text-decoration: none;
-<<<<<<< HEAD
-    font-size: 30px;
-    color: black;
-=======
     font-size: large;
     font-weight: 100px;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #container .containerA6 a{
     color: white ;
     text-decoration: none;
-<<<<<<< HEAD
-    font-size: 30px;
-    color: black;
-=======
     font-size: large;
     font-weight: 100px;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
     
 
@@ -165,14 +110,7 @@
     height: 40px;
     width: 700px;
 }
-#navbar .logo input i{
-
-}
 #container1{
-<<<<<<< HEAD
-    border: 2px solid white;
-=======
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     height: 400px;
     display: flex;
     justify-content:space-between;
@@ -185,11 +123,7 @@
     align-items: center;
      height: 350px;
      width: 600px;
-<<<<<<< HEAD
-     border: 2px solid white;
-=======
      /* border: 2px solid black; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
      margin: 10px 20px;
      text-align:end;
      font-size: 20px;
@@ -220,11 +154,7 @@
     align-items: center;
      height: 350px;
      width: 600px;
-<<<<<<< HEAD
-     border: 2px solid white;
-=======
      /* border: 2px solid black; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
      margin: 10px 20px;
      text-align:right;
      font-size: 20px;
@@ -254,11 +184,7 @@
     align-items: center;
      height: 350px;
      width: 600px;
-<<<<<<< HEAD
-     border: 2px solid white;
-=======
      /* border: 2px solid black; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
      margin: 10px 20px;
      text-align:end;
      font-size: 20px;
@@ -282,8 +208,8 @@
     transform: scale(1.1);
 }
 #container2{
-    border: 2px solid white;
-    height: 400px;
+    border: 2px solid green;
+    height: 600px;
     margin: 10px 80px;
     box-shadow: 0px 0px 10px 1px black;
 }
@@ -294,36 +220,17 @@
     font-size: 40px;
 }
 #container3{
-<<<<<<< HEAD
-    border: 2px solid white;
-    height: 700px;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    margin: 20px 80px;
-=======
     /* border: 2px solid rgb(4, 4, 4); */
     width: 100%;
     display: block;
     align-content: center;
     /* justify-content: space-between; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     /* box-shadow: 0px 0px 10px 1px black; */
 
 }
 #container3 .containerA img{
     height: 400px;
     width: 300px;
-<<<<<<< HEAD
-    border: 2px solid white;
-    margin: 120px 10px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
-    overflow: hidden;
-}
-#container3 .containerA img:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-  transform: skew(5deg);
-=======
     border-radius: 5px;
     /* border: 2px solid white; */
     /* margin: 120px 10px 10px 20px; */
@@ -333,20 +240,10 @@
 #container3 .containerA img:hover{
     box-shadow: 0px 0px 8px 3px rgba(208, 54, 54, 0.482);
   /* transform: skew(5deg); */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #container3 .containerB img{
     height: 400px;
     width: 300px;
-<<<<<<< HEAD
-    border: 2px solid white;
-    margin: 120px 10px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
-}
-#container3 .containerB img:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: skew(5deg);
-=======
     border-radius: 5px;
     /* border: 2px solid white; */
     /* margin: 120px 10px 10px 20px; */
@@ -355,20 +252,10 @@
 #container3 .containerB img:hover{
     box-shadow: 0px 0px 8px 3px rgba(208, 54, 54, 0.482);
     /* transform: skew(5deg); */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #container3 .containerC img{
     height: 400px;
     width: 300px;
-<<<<<<< HEAD
-    border: 2px solid white;
-    margin: 120px 10px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
-}
-#container3 .containerC img:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: skew(5deg);
-=======
     /* border: 2px solid white; */
     /* margin: 120px 10px 10px 20px; */
     box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.185);
@@ -377,21 +264,11 @@
 #container3 .containerC img:hover{
     box-shadow: 0px 0px 8px 3px rgba(208, 54, 54, 0.482);
     /* transform: skew(5deg); */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #container3 .containerD img{
    
     height: 400px;
     width: 300px;
-<<<<<<< HEAD
-    border: 2px solid white;
-    margin: 120px 10px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
-}
-#container3 .containerD img:hover{
-    box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: skew(5deg);
-=======
     /* border: 2px solid white; */
     /* margin: 120px 10px 10px 20px; */
     box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.185);
@@ -403,7 +280,6 @@
 }
 .ctn01{
     /* display: inline-block; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #container3 h1{
     display: flex;
@@ -418,75 +294,71 @@
 }   
 /* 
 #container4{
-    border: 2px solid white;
-    height: 900px;
-    margin: 20px 185px ;
+    border: 2px solid red;
+    height: 600px;
+    margin: 10px 100px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* box-shadow: 0px 0px 10px 1px black; */
+    box-shadow: 0px 0px 10px 1px black;
 }
 #container4 .containerA1{
-    height: 80px;
-    width: 300px;
-    border: 2px solid white;
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
     margin: 75px 10px 10px 20px;
     text-align: start;
-    font-size: 20px;
+    font-size: 30px;
     box-shadow: -10px -10px 12px 1px black;
 }
 #container4 .containerA1:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: translate(-5px,5px);
 }
 
     
 #container4 .containerA2{
-    height: 80px;
-    width: 300px;
-    border: 2px solid white;
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
     margin: 75px 10px 10px 20px;
     text-align: start;
-    font-size: 20px;
+    font-size: 30px;
     box-shadow: -10px -10px 12px 1px black;
 }
 #container4 .containerA2:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: translate(-5px,5px);
 }
 
 #container4 .containerA3{
     height: 100px;
-    width: 300px;
-    border: 2px solid white;
+    width: 500px;
+    border: 2px solid black;
     margin: 75px 10px 10px 20px;
     text-align: start;
-    font-size: 20px;
+    font-size: 30px;
     box-shadow: -10px -10px 12px 1px black;
 }
 #container4 .containerA3:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: translate(-5px,5px);
 }
 
 #container4 .containerA4{
     height: 100px;
-    width: 250px;
-    border: 2px solid white;
+    width: 500px;
+    border: 2px solid black;
     margin: 75px 10px 10px 20px;
     text-align: start;
-    font-size: 20px;
+    font-size: 30px;
     box-shadow: -10px -10px 12px 1px black;
 }
 #container4 .containerA4:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: translate(-5px,5px);
 }
 
 #container4 .containerA5{
     height: 100px;
     width: 500px;
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -494,14 +366,13 @@
 }
 #container4 .containerA5:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: translate(-5px,5px);
 }
  
 
 #container4 .containerA6{
     height: 100px;
     width: 500px;
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -509,13 +380,12 @@
 }
 #container4 .containerA6:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: translate(-5px,5px);
 }
 
 #container4 .containerA7{
     height: 100px;
     width: 500px;
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -523,13 +393,12 @@
 }
 #container4 .containerA7:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: translate(-5px,5px);
 }
 
 #container4 .containerA8{
     height: 100px;
     width: 500px;
-    border: 2px solid white ;
+    border: 2px solid black;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -537,13 +406,12 @@
 }
 #container4 .containerA8:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-    transform: translate(-5px,5px);
 }
 
 #container4 .containerA9{
     height: 100px;
     width: 500px;
-    border: 2px solid white;
+    border: 2px solid black;
     margin: 75px 10px 10px 20px;
     text-align: start;
     font-size: 30px;
@@ -551,12 +419,6 @@
 }
 #container4 .containerA9:hover{
     box-shadow: 0px 0px 8px 3px rgb(231, 31, 31);
-
-}
-#container4 .containerA9 #ready{
-    width: 300px;
-    height: 60px;
-    
 }
 
 #container4 h1{
@@ -564,28 +426,6 @@
     font-size: 50px;
 } */
 #container5{
-<<<<<<< HEAD
-    border: 2px solid white;
-    height: 700px;
-    display: flex;
-    margin: 10px 80px;
-    justify-content:space-evenly;
-    /* box-shadow: 0px 0px 10px 1px black; */
-}
-
-#container5 .containerA1{
-    height: 600px;
-    width: 700px;
-    border: 2px solid white;
-    margin: 45px -295px 0px 35px;
-    box-shadow: 0px 0px 12px 1px black;
-}
-#container5 .containerA1 img{
-    border: 2px solid white ;
-    height: 550px;
-    width: 600px;
-    cursor: pointer;
-=======
     /* border: 2px solid white; */
     width: 100%;
     display: flex;
@@ -604,20 +444,10 @@
     cursor: pointer;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.126);
     
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
 #container5 .containerA2{
     height: 550px;
     width: 600px;
-<<<<<<< HEAD
-    border: 2px solid white;
-    margin: 75px 50px 10px 20px;
-    box-shadow: 0px 0px 12px 1px black;
-}
-#container5 .containerA2 h1{
-     font-size: 45px;
-     margin: 10px 10px;
-=======
     /* border: 2px solid white; */
     /* margin: 75px 50px 10px 20px; */
     /* box-shadow: 0px 0px 12px 1px black; */
@@ -625,7 +455,6 @@
 #container5 .containerA2 h1{
      font-size: 45px;
      /* margin: 10px 10px; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
      padding: 10px 10px;
 }
 #container5 .containerA2 p{
@@ -636,32 +465,18 @@
 
 }
 #container5 .containerA2 input{
-<<<<<<< HEAD
-    border: 2px solid white;
-=======
     /* border: 2px solid white; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     font-size: 25px;
     color: rgb(0, 0, 0);
     width: 500px;
     height: 40px;
     margin: 10px 10px;
     padding: 10px 10px;
-<<<<<<< HEAD
-    background-color: rgb(230, 228, 228);
-
-=======
     border-radius: 6px;
     outline: none;
 }
 #container5 .containerA2 input:hover{
     
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
-}
-#container5 .containerA2 input:hover{
-    border:2px solid blue ease-out;
-    background-color: rgba(255, 0, 0, 0.859);
-    color: white;
 }
 #container5 .containerA2 button{
     font-size: 20px;
@@ -670,13 +485,6 @@
     margin: 10px 10px;
     color: white;
     padding: 10px 10px;
-<<<<<<< HEAD
-   background-color:  rgba(255, 0, 0, 0.859);
-   cursor: pointer;
-}
-#container5 .containerA2 button:hover{
-    background-color: white;
-=======
     background-color: rgba(255, 0, 0, 0.859);
    cursor: pointer;
    border-radius: 6px;
@@ -685,48 +493,31 @@
 }
 #container5 .containerA2 button:hover{
     background-color: rgba(215, 5, 5, 0.859);
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 
 }
 
 
 #container5 .containerA2 .childcontainer{
-<<<<<<< HEAD
-    border: 2px solid white;
-=======
     /* border: 2px solid white; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     display: flex;
     justify-content: space-around;
     height: 70px;
     width: 500px;
 }
 #container5 .containerA2 .childcontainer .childcontainerA1 img{
-<<<<<<< HEAD
-    border: 2px solid white;
-=======
     /* border: 2px solid white; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     width: 200px;
     height: 70px;
     cursor: pointer;
 }
 #container5 .containerA2 .childcontainer .childcontainerA2 img{
-<<<<<<< HEAD
-    border: 2px solid white ;
-=======
     /* border: 2px solid white ; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     width: 200px;
     height: 70px;
     cursor: pointer;
 }
 #container6{
-<<<<<<< HEAD
-    border: 2px solid white;
-=======
     /* border: 2px solid white; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     height: 600px;
     margin: 10px 80px;
     display: flex;
@@ -735,11 +526,7 @@
     box-shadow: 0px 0px 10px 1px black;
 }
 #container6 .containerA1{
-<<<<<<< HEAD
-    border: 2px solid white;
-=======
     /* border: 2px solid white; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     border-radius: 10px;
     height: 70px;
     width: 800px;
@@ -849,29 +636,6 @@ box-shadow: 0px 0px 10px 1px black;
     padding: 10px 10px 10px 10px;
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
-
-}
-#container6 .containerA5 .childcontainerA1{
-    padding: 10px;
-    font-size: 30px;
-
-}
-#container6 .containerA5 .childcontainerA2 button{
-  margin: 10px;
-height: 40px;
-width: 50px;
-font-size: 30px;
-background-color: white;
-border: 2px solid white;
-box-shadow: 0px 0px 10px 1px black;
-    
-}
-#container6 .containerA5 .childcontainerA2 button:hover{
-    transform: rotate(90deg);
-    
-=======
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 
 }
 #container6 .containerA5 .childcontainerA1{
@@ -900,35 +664,6 @@ box-shadow: 0px 0px 10px 1px black;
 
 
 #container7{
-<<<<<<< HEAD
-    border: 2px solid white;
-    background-color: rgb(226, 219, 219);
-    height: 800px;
-    /* display: flex;
-    justify-content: space-around; */
-    box-shadow: 0px 0px 10px 1px black;
-    
-}
-#container7 .container01{
-    border: 2px solid white;
-    margin: 35px;
-    height: 600px;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-#container7 .container01 h1{
-    position: absolute;
-    font-size: 30px;
-}
-#container7 .containerA1{
-    border: 2px solid white;
-    height: 400px;
-    width: 300px;
-    margin: 50px 10px 10px 100px;
-    padding: 10px -1px 0px 0px ;
-    font-size: 15px;
-=======
     /* border: 2px solid white; */
     background-color: rgba(237, 237, 237, 0.405);
     /* height: 800px; */
@@ -958,15 +693,10 @@ box-shadow: 0px 0px 10px 1px black;
     /* padding: 60px;px; */
     padding-right: 0%;
    
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     
 }
 #container7 .containerA1 ul{
     list-style: none;
-<<<<<<< HEAD
-    margin: 30px;
-    font-size: 12px;
-=======
     /* margin: 30px; */
     
     color: rgba(52, 52, 52, 0.485);
@@ -980,35 +710,11 @@ box-shadow: 0px 0px 10px 1px black;
 }
 #container7 ul li{
     cursor: pointer;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
-#container7 .containerA1 :hover{
-    text-decoration: underline;
-    color: solid black;
-}   
-    
 #container7 .containerA1 ul li{
     /* margin: 10px; */
 }
 #container7 .containerA2{
-<<<<<<< HEAD
-    border: 2px solid white;
-    height: 400px;
-    width: 250px;
-    margin: 50px 10px 10px 100px;
-    padding: 10px 10px 10px 10px;
-    font-size: 15px;
-    
-}
-#container7 .containerA2 :hover{
-    text-decoration: underline;
-    color: solid black;
-}   
-#container7 .containerA2 ul{
-    list-style: none;
-    margin: 30px ;
-    font-size: 12px;
-=======
     /* border: 2px solid white; */
     /* height: 400px; */
     /* width: 250px; */
@@ -1026,30 +732,12 @@ box-shadow: 0px 0px 10px 1px black;
     /* margin: 30px ; */
     
     color: rgba(52, 52, 52, 0.485);
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     
 }
 #container7 .containerA2 ul li{
     /* margin: 10px; */
 }
 #container7 .containerA3{
-<<<<<<< HEAD
-    border: 2px solid white ;
-    height: 400px;
-    width: 250px;
-    margin: 50px 10px 10px 100px;
-    font-size: 15px;
-    
-}
-#container7 .containerA3 :hover{
-    text-decoration: underline;
-    color: solid black;
-}   
-#container7 .containerA3 ul{
-    list-style: none;
-    margin: 30px;
-    font-size: 10px;
-=======
     /* border: 2px solid white ; */
     /* height: 400px; */
     /* width: 250px; */
@@ -1066,37 +754,18 @@ box-shadow: 0px 0px 10px 1px black;
     /* margin: 30px; */
     
     color: rgba(52, 52, 52, 0.485);
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     
 }
 #container7 .containerA3 ul li{
     /* margin: 10px; */
 }
 #container7 .containerA4{
-<<<<<<< HEAD
-    border: 2px solid white;
-    height: 400px;
-    width: 150px;
-    margin: 50px 10px 10px 100px;
-    font-size: 15px;
-    
-}
-#container7 .containerA4 :hover{
-    text-decoration: underline;
-    color: solid black;
-}   
-#container7 .containerA4 ul{
-    list-style: none;
-    margin: 30px;
-    font-size: 10px;
-=======
     /* border: 2px solid white; */
     /* height: 400px; */
     /* width: 150px; */
     /* margin: 50px 10px 10px 100px; */
     ;
     padding-right: 0%;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     
 }
 #container7 .containerA4 ul li:hover{
@@ -1113,78 +782,16 @@ box-shadow: 0px 0px 10px 1px black;
 
 } */
 #container7 .containerA5{
-<<<<<<< HEAD
-    border: 2px solid white;
-    height: 400px;
-    width: 350px;
-    margin: 50px 10px 10px 100px;
-    font-size: 15px;
-    
-=======
     /* border: 2px solid white; */
     /* height: 400px; */
     /* width: 350px; */
     /* margin: 50px 10px 10px 100px; */   
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
    
 }
 #container7 .containerA5 #link{
     padding-top: 5%;
     padding-bottom: 5%;
     display: flex;
-<<<<<<< HEAD
-    margin: 20px 10px;
-    justify-content: space-around;
-    width: 350px;
-}
-#container7 .containerA5 #link .link1 img{
-    border: 2px solid  white;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-}
-#container7 .containerA5 #link .link2 img{
-    border: 2px solid white;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-}
-#container7 .containerA5 #link .link3 img{
-    border: 2px solid white;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-}
-#container7 .containerA5 #link .link4 img{
-    border: 2px solid white ;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-}
-#container7 .containerA5 #link .link5 img{
-    border: 2px solid white ;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-}
-#container7 .containerA5 ul{
-    border: 2px solid white;
-    list-style: none;
-    margin: 50px;
-    width: 260px;
-}
-#container7 .containerA5 ul .item1 img{
-    border: 2px solid white;
-    height: 60px;
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    cursor: pointer;
-    
-}
-#container7 .containerA5 ul .item2 img{
-    border: 2px solid white;
-=======
     /* margin: 20px 10px; */
     align-items: center;
     justify-content: space-between;
@@ -1233,15 +840,12 @@ box-shadow: 0px 0px 10px 1px black;
 }
 #container7 .containerA5 ul .item1 img{
     /* border: 2px solid white; */
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     height: 60px;
     width: 200px;
     border-radius:6px ;
     /* margin: 10px; */
     padding: 10px;
     cursor: pointer;
-<<<<<<< HEAD
-=======
     
 }
 #container7 .containerA5 ul .item2 img{
@@ -1252,21 +856,14 @@ box-shadow: 0px 0px 10px 1px black;
     /* margin: 10px; */
     padding: 10px;
     cursor: pointer;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
     
     
 }
 #container7 p{
-<<<<<<< HEAD
-    margin: 20px;
-    font-size: 20px;
-    background-color: rgb(226, 219, 219);
-=======
     padding-top: 10px;
     color: rgba(52, 52, 52, 0.485);
     /* background-color: rgb(226, 219, 219); */
 }
 #ul-00{
     display: inline-block;
->>>>>>> e04c7aa8a62a364a85e3925df7e8aff4c80fcaf6
 }
