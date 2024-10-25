@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login For Admin</title>
+    <link rel="stylesheet" href="../css style/loginpage.css">
+    <script src="../jsfiles/index.js"></script> 
+</head>
+<body>
+    <div class="first-container">
+       <div class="login-container"> <div>Sign Up</div></div>
+       <div class="field-container">
+        <input type="text" style="margin-top: 10px;" placeholder="Enter Name" id="username" onchange="validation()"/>
+
+        <input type="text"  placeholder="Enter Email Address" id="useremailid" onchange="validation()"/>
+         <div id="inputfirsterr"></div>
+        <input type="text" style="margin-top: 17px;" placeholder="Enter Password" id="userpassword" onchange="validation()"/>
+        <div id="inputseconderr"></div>
+        <textarea id="address" placeholder="Enter Full Address here , address , district , state , pincode"></textarea>
+
+       </div>
+       <div class="btn-container">
+        <div class="submit" onclick="userdatasubmit()">Submit</div>
+       </div>
+    </div>
+</body>
+</html>

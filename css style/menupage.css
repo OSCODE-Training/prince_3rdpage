@@ -1,0 +1,1028 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color:rgb(206, 14, 14) ; */
+    background-color:rgb(252, 252, 252) ;
+}
+#navbar{
+    border: 2px solid rgb(252, 252, 252) ;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+     box-shadow: 0px 0px 10px 1px black; 
+}
+#navbar .nava1 img{
+    border: 2px solid rgb(252, 252, 252);
+    height: 75px;
+    width: 110px;
+    margin: 10px 10px;
+
+}
+#navbar .nava2 input{
+    border: 2px solid black;
+    height: 50px;
+    width: 400px;
+    margin: 10px -10px;
+    box-shadow: 0px 0px 10px 1px black;
+    font-size: 30px; 
+
+}
+
+.material-symbols-outlined {
+    border: 2px solid rgb(252, 252, 252);
+    width: 30px;
+    height: 50px;
+    margin: 10px 10px;
+    cursor: pointer;
+   background-color: rgb(252, 252, 252) ;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#navbar .nava3{
+    border: 2px solid rgb(252, 252, 252);
+    height: 60px;
+    width: 100px;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 25px;
+}
+#navbar .nava3 a{
+    color: black;
+    text-decoration: none;
+
+}
+#navbar .nava3 a:hover{
+   
+}
+#navbar .nava4{
+    border: 2px solid rgb(252, 252, 252);
+    height: 60px;
+    width: 100px;
+    margin: 10px 10px;
+    text-align: center;
+   font-size: 25px;
+}
+#navbar .nava4 a{
+    color: black;
+    text-decoration: none;
+}
+#navbar .nava4 a:hover{
+
+}
+#container{
+    background-color: rgb(252, 252, 252) ; 
+    border: 2px solid rgb(252, 252, 252);
+    height: 70px;
+    position: relative;
+    display: flex;
+    text-align: left;
+    /* justify-content: space-between; */
+    margin: 10px 10px;
+    padding: 10px 10px;
+    /* box-shadow: 0px 0px 10px 1px black; */
+
+}
+#container .containerA1{
+    background-color:rgb(252, 252, 252) ;
+    border: 2px solid rgb(252, 252, 252);
+    display: flex;
+    height: 67px;
+    width: 300px;
+    margin: 3px 7px;
+    padding: 6px 10px;
+    cursor: pointer;
+   
+}
+#container .containerA1 .logo1 img{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 50%;
+    height: 60px;
+    width: 100px;
+    margin: -7px -9px;
+    padding: 8px 0px;
+    background-image: url(../content/background2.jpeg);
+}
+#container .containerA1 .head1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 60px;
+    width: 200px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#container .containerA2{
+    border: 2px solid rgb(252, 252, 252);
+    display: flex;
+    height: 67px;
+    width: 300px;
+    margin: 3px 7px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+#container .containerA2 .logo2 img{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 50%;
+    height: 60px;
+    width: 100px;
+    margin: -7px -9px;
+    padding: 8px 0px;
+    background-image: url(../content/background2.jpeg);
+}
+#container .containerA2 .head2{
+    border: 2px solid rgb(252, 252, 252);
+    height: 60px;
+    width: 200px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#container .containerA3{
+    border: 2px solid rgb(252, 252, 252);
+    display: flex;
+    height: 67px;
+    width: 300px;
+    margin: 3px 7px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+#container .containerA3 .logo3 img{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 50%;
+    height: 60px;
+    width: 100px;
+    margin: -7px -9px;
+    padding: 8px 0px;
+    background-image: url(../content/background2.jpeg);
+}
+#container .containerA3 .head3{
+    border: 2px solid rgb(252, 252, 252);
+    height: 60px;
+    width: 200px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#container1{
+    border: 2px solid rgb(252, 252, 252);
+    margin: 10px 10px;
+    display: flex;
+    height: 50px;
+    /* box-shadow: 0px 0px 10px 1px black; */
+}
+#container1 .containerA1{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 0px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    cursor: pointer;
+}
+#container1 .containerA1:hover{
+    background-color: grey;
+}
+
+#container1 .containerA2{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 0px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    cursor: pointer;
+}
+#container1 .containerA2:hover{
+    background-color: grey;
+}
+#container1 .containerA3{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 0px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    cursor: pointer;
+}
+#container1 .containerA3:hover{
+    background-color: grey;
+}
+#container1 .containerA4{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 0px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    cursor: pointer;
+}
+#container1 .containerA4:hover{
+    background-color: grey;
+}
+#container2{
+    border: 2px solid rgb(252, 252, 252);
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+/* #container2 .head1 h1{
+    position: absolute;
+    font-size: 30px;
+    margin: 10px 10px; */
+
+
+/* } */
+
+#container2 .containerA1{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA1:hover{
+    transform: scale(1.1);
+}
+#container2 .containerA1 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+    
+}
+#container2 .containerA1 .childcontainerA2 button{
+     width: 100px;
+     height: 30px;
+    background-color: rgba(255, 0, 0, 0.859);
+    color: white;
+    cursor: pointer;
+}
+#container2 .containerA1 .childcontainerA2 button:hover{
+            background-color: white ;
+            color: black;
+}
+#container2 .containerA1 .logo1 {
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+   background-image: url(../content/background2.jpeg);
+   overflow: hidden;
+   background-size: cover;
+}
+#container2 .containerA1 .logo1:hover{
+    
+}   
+    
+#container2 .containerA2{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA2:hover{
+    transform: scale(1.1);
+}
+#container2 .containerA2 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA2 .childcontainerA2 button{
+    width: 100px;
+    height: 30px;
+   background-color: rgba(255, 0, 0, 0.859);
+   color: white;
+   cursor: pointer;
+}
+#container2 .containerA2 .childcontainerA2 button:hover{
+           background-color: white ;
+           color: black;
+}
+#container2 .containerA2 .logo1 {
+   border: 2px solid rgb(252, 252, 252);
+   height: 70%;
+  background-image: url(../content/background2.jpeg);
+  overflow: hidden;
+  background-size: cover;
+}
+#container2 .containerA3{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA3:hover{
+    transform: scale(1.1);
+}
+#container2 .containerA3 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA3 .childcontainerA2 button{
+    width: 100px;
+    height: 30px;
+   background-color: rgba(255, 0, 0, 0.859);
+   color: white;
+   cursor: pointer;
+}
+#container2 .containerA3 .childcontainerA2 button:hover{
+           background-color: white ;
+           color: black;
+}
+#container2 .containerA3 .logo1 {
+   border: 2px solid rgb(252, 252, 252);
+   height: 70%;
+  background-image: url(../content/background2.jpeg);
+  overflow: hidden;
+  background-size: cover;
+}
+
+#container2 .containerA4{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA4:hover{
+    transform: scale(1.1);
+}
+
+#container2 .containerA4 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA4 .childcontainerA2 button{
+    width: 100px;
+    height: 30px;
+   background-color: rgba(255, 0, 0, 0.859);
+   color: white;
+   cursor: pointer;
+}
+#container2 .containerA4 .childcontainerA2 button:hover{
+           background-color: white ;
+           color: black;
+}
+#container2 .containerA4 .logo1 {
+   border: 2px solid rgb(252, 252, 252);
+   height: 70%;
+  background-image: url(../content/background2.jpeg);
+  overflow: hidden;
+  background-size: cover;
+}
+
+#container2 .containerA5{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA5:hover{
+    transform: scale(1.1);
+}
+#container2 .containerA5 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA5 .childcontainerA2 button{
+    width: 100px;
+    height: 30px;
+   background-color: rgba(255, 0, 0, 0.859);
+   color: white;
+   cursor: pointer;
+}
+#container2 .containerA5 .childcontainerA2 button:hover{
+           background-color: white ;
+           color: black;
+}
+#container2 .containerA5 .logo1 {
+   border: 2px solid rgb(252, 252, 252);
+   height: 70%;
+  background-image: url(../content/background2.jpeg);
+  overflow: hidden;
+  background-size: cover;
+}
+
+
+#container2 .containerA6{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA6:hover{
+    transform: scale(1.1);
+}
+#container2 .containerA6 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA6 .childcontainerA2 button{
+    width: 100px;
+    height: 30px;
+   background-color: rgba(255, 0, 0, 0.859);
+   color: white;
+}
+#container2 .containerA6 .childcontainerA2 button:hover{
+           background-color: white ;
+           color: black;
+}
+#container2 .containerA6 .logo1 {
+   border: 2px solid rgb(252, 252, 252);
+   height: 70%;
+  background-image: url(../content/background2.jpeg);
+  overflow: hidden;
+  background-size: cover;
+}
+
+#container2 .containerA7{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA7:hover{
+    transform: scale(1.1);
+}
+#container2 .containerA7 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA7 .childcontainerA2 button{
+    width: 100px;
+    height: 30px;
+   background-color: rgba(255, 0, 0, 0.859);
+   color: white;
+}
+#container2 .containerA7 .childcontainerA2 button:hover{
+           background-color: white ;
+           color: black;
+}
+#container2 .containerA7 .logo1 {
+   border: 2px solid rgb(252, 252, 252);
+   height: 70%;
+  background-image: url(../content/background2.jpeg);
+  overflow: hidden;
+  background-size: cover;
+}
+
+
+#container2 .containerA8{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA8:hover{
+    transform: scale(1.1);
+}
+#container2 .containerA8 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA8 .childcontainerA2 button{
+    width: 100px;
+    height: 30px;
+   background-color: rgba(255, 0, 0, 0.859);
+   color: white;
+}
+#container2 .containerA8 .childcontainerA2 button:hover{
+           background-color: white ;
+           color: black;
+}
+#container2 .containerA8 .logo1 {
+   border: 2px solid rgb(252, 252, 252);
+   height: 70%;
+  background-image: url(../content/background2.jpeg);
+  overflow: hidden;
+  background-size: cover;
+}
+
+#container2 .containerA9{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA9:hover{
+    transform: scale(1.1);
+}
+#container2 .containerA9 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252) ;
+}
+#container2 .containerA9 .childcontainerA2 button{
+    width: 100px;
+    height: 30px;
+   background-color: rgba(255, 0, 0, 0.859);
+   color: white;
+}
+#container2 .containerA9 .childcontainerA2 button:hover{
+           background-color: white ;
+           color: black;
+}
+#container2 .containerA9 .logo1 {
+   border: 2px solid rgb(252, 252, 252);
+   height: 70%;
+  background-image: url(../content/background2.jpeg);
+  overflow: hidden;
+  background-size: cover;
+}
+
+
+#container2 .containerA10{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA10:hover{
+    transform: scale(1.1);
+}
+#container2 .containerA10 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA10 .logo1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+  
+}
+#container2 .containerA11{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA11 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA11 .logo1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+  
+}
+
+#container2 .containerA12{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA12 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA12 .logo1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+  
+}
+
+
+#container2 .containerA13{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA13 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA13 .logo1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+  
+}
+
+
+#container2 .containerA14{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA14 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA14 .logo1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+  
+}
+
+#container2 .containerA15{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA15 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA15 .logo1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+  
+}
+
+#container2 .containerA16{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA16 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA16 .logo1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+  
+}
+
+#container2 .containerA17{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA17 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA17 .logo1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+  
+}
+#container2 .containerA18{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px black;
+}
+#container2 .containerA18 .childcontainerA2{
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    border: 2px solid rgb(252, 252, 252);
+}
+#container2 .containerA18 .logo1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 70%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container7{
+    border: 2px solid white;
+    background-color: rgb(252, 252, 252);
+    height: 800px;
+    /* display: flex;
+    justify-content: space-around; */
+    
+    box-shadow: 0px 0px 10px 1px black;
+    
+}
+#container7 .container01{
+    border: 2px solid rgb(252, 252, 252);
+    margin: 35px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#container7 .container01 h1{
+    position: absolute;
+    font-size: 30px;
+}
+#container7 .containerA1{
+    border: 2px solid rgb(252, 252, 252);
+    height: 400px;
+    width: 300px;
+    margin: 50px 10px 10px 100px;
+    padding: 10px -1px 0px 0px ;
+    font-size: 15px;
+    
+}
+#container7 .containerA1 ul{
+    list-style: none;
+    margin: 30px;
+    font-size: 12px;
+}
+#container7 .containerA1 :hover{
+    text-decoration: underline;
+    color: solid black;
+}   
+    
+#container7 .containerA1 ul li{
+    margin: 10px;
+}
+#container7 .containerA2{
+    border: 2px solid rgb(252, 252, 252);
+    height: 400px;
+    width: 250px;
+    margin: 50px 10px 10px 100px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    
+}
+#container7 .containerA2 :hover{
+    text-decoration: underline;
+    color: solid black;
+}   
+#container7 .containerA2 ul{
+    list-style: none;
+    margin: 30px ;
+    font-size: 12px;
+    
+}
+#container7 .containerA2 ul li{
+    margin: 10px;
+}
+#container7 .containerA3{
+    border: 2px solid white ;
+    height: 400px;
+    width: 250px;
+    margin: 50px 10px 10px 100px;
+    font-size: 15px;
+    
+}
+#container7 .containerA3 :hover{
+    text-decoration: underline;
+    color: solid black;
+}   
+#container7 .containerA3 ul{
+    list-style: none;
+    margin: 30px;
+    font-size: 10px;
+    
+}
+#container7 .containerA3 ul li{
+    margin: 10px;
+}
+#container7 .containerA4{
+    border: 2px solid white;
+    height: 400px;
+    width: 150px;
+    margin: 50px 10px 10px 100px;
+    font-size: 15px;
+    
+}
+#container7 .containerA4 :hover{
+    text-decoration: underline;
+    color: solid black;
+}   
+#container7 .containerA4 ul{
+    list-style: none;
+    margin: 30px;
+    font-size: 10px;
+    
+}
+#container7 .containerA4 ul li{
+    margin: 10px;
+}
+#container7 .containerA5{
+    border: 2px solid white;
+    height: 400px;
+    width: 350px;
+    margin: 50px 10px 10px 100px;
+    font-size: 15px;
+    
+   
+}
+#container7 .containerA5 #link{
+    display: flex;
+    margin: 20px 10px;
+    justify-content: space-around;
+    width: 350px;
+}
+#container7 .containerA5 #link .link1 img{
+    border: 2px solid  white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+#container7 .containerA5 #link .link2 img{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+#container7 .containerA5 #link .link3 img{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+#container7 .containerA5 #link .link4 img{
+    border: 2px solid white ;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+#container7 .containerA5 #link .link5 img{
+    border: 2px solid white ;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+#container7 .containerA5 ul{
+    border: 2px solid white;
+    list-style: none;
+    margin: 50px;
+    width: 260px;
+}
+#container7 .containerA5 ul .item1 img{
+    border: 2px solid white;
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+#container7 .containerA5 ul .item2 img{
+    border: 2px solid white;
+    height: 60px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+    
+}
+#container7 p{
+    margin: 20px;
+    font-size: 20px;
+    background-color: rgb(226, 219, 219);
+}
