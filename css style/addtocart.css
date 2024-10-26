@@ -143,6 +143,7 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
     
 }
 #container #container2 h2{

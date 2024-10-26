@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add to cart</title>
     <link rel="stylesheet" href="../css style/Addtocart.css">
+    <script src="../jsfiles/tocart.js"></script>
 </head>
 <body>
     <nav id="Navbar"> 
@@ -28,16 +29,17 @@
                 <div class="containerA1">
                     <h1>FooDie MooDie Coupon(%)</h1>
                 </div>
-                <div class="containerA2">
+                <div class="containerA2" >
                     <h1>
                         Delivery Address
-                         <button class="btn1">
-                            +
-                        </button>
+                         
                     </h1>
+                    <div style="margin-top: 20px ;" id="addressshow">
+                        Please Login First
+                    </div>
                 </div>
-                <div class="containerA3">
-                    <button class="btn">
+                <div class="containerA3" id="btnn">
+                    <button class="btn" onclick="placedorder()">
                        <b>Place Order</b>
                     </button>
                 </div>
@@ -58,30 +60,15 @@
                     </div>
                       <br>
                 </div>
-                <div class="containerA2">
-                    <div>
-                        <h4>CHIKKEN CHILLI</h4><br><h5>Customize</h5>
-                    </div>
-                    <div> <button class="bot">-</button>  <button class="bot"> 1</button>  <button class="bot"> +</button></div>
-                  
-                    <div>
-                        <h5 class="off">249</h5><br><h4>219</h4>
-                    </div>
-                    </div>
-                <div class="containerA2">
-                    <div>
-                        <h4>Paneer CHILLI</h4><br><h5>Customize</h5>
-                    </div>
-                    <div> <button class="bot">-</button>  <button class="bot"> 1</button>  <button class="bot"> +</button></div>
-                    <div>
-                        <h5 class="off">209</h5><br><h4>189</h4>
-                    </div>
-                    </div>
+                <div id="items">
                 
-            <div class="containerA3">
+                        </div>
+                
+               
+            <!-- <div class="containerA3">
             <div><h3>Apply Coupon%</h3></div>
             <div><h5>></h5></div>
-            </div>
+            </div> -->
             <div class="containerA4">
                 <div><h3>Bill Details</h3></div>
                 
@@ -138,7 +125,7 @@
                 <hr><div class="containerA5">
                     <div>
                         <h2><b>Total Bill</b></h2></div>
-                       <div><h2>219</h2></div>
+                       <div><h2 id="totalbillaa">219</h2></div>
                     </div>
                     </div>
     </section>

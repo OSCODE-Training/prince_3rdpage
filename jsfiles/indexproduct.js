@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         alert("Login Successfully")
                         localStorage.setItem("user",JSON.stringify(data.data))
-                        
+                        window.location.href="file:///D:/ecommercepagetem/Pages/addtocart.html"
                         // window.location.href="file:///D:/ecommercepagetem/Pages/loginpage.html"
         
         
@@ -200,7 +200,7 @@ function logout()
     var confirmation = confirm("Do You want to Logout?")
     if(confirmation)
     {
-        localStorage.clear()
+        localStorage.removeItem("user")
         location.reload()
     }
 }
